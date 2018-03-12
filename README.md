@@ -6,6 +6,13 @@
 
 <img src="https://raw.githubusercontent.com/BoBoGithub/PhpProject/master/doc/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%9B%BE.png">
 
+## 2. 项目搭建
+
+### 2.1 安装Nginx/PHP/Mysql/Redis
+### 2.2 按/doc/database.sql 新建库表
+### 2.3 修改Mysql/Redis的链接配置
+### 2.4 配置域名 admin.test.com 指向 admin模块下的单一入口文件index.php
+### 2.5 配置域名  data.test.com 指向 data 模块下的单一入口文件index.php
 
 
 ## 更新记录:
