@@ -42,30 +42,29 @@ class PublicLibManager
 	public function __construct()
 	{
 		$this->arrClasses = array(
-		'Action'				=> PUBLIC_PATH .'/framework/Action.class.php',
+		'Action'			=> PUBLIC_PATH .'/framework/Action.class.php',
 		'ActionChain'			=> PUBLIC_PATH .'/framework/ActionChain.class.php',
 		'ActionController'		=> PUBLIC_PATH .'/framework/ActionController.class.php',
-		'ActionControllerConfig'=> PUBLIC_PATH .'/framework/ActionControllerConfig.class.php',
-		'Context'				=> PUBLIC_PATH .'/framework/Context.class.php',
+		'ActionControllerConfig'	=> PUBLIC_PATH .'/framework/ActionControllerConfig.class.php',
+		'Context'			=> PUBLIC_PATH .'/framework/Context.class.php',
 		'Application'			=> PUBLIC_PATH .'/framework/Application.class.php',
 		
-		'CLog'					=> PUBLIC_PATH .'/log/CLog.class.php',
-		'Smarty'				=> PUBLIC_PATH .'/smarty/Smarty.class.php',
+		'CLog'				=> PUBLIC_PATH .'/log/CLog.class.php',
+		'Smarty'			=> PUBLIC_PATH .'/smarty/Smarty.class.php',
 		
-
 		'RedisWrapper'			=> PUBLIC_PATH .'/redis/RedisWrapper.class.php',
 		'RedisConfig'			=> PUBLIC_CONF_PATH .'/RedisConfig.class.php',
-		'Db'					=> PUBLIC_PATH .'/db/Db.class.php',
-		'DbWrapper'				=> PUBLIC_PATH .'/db/DbWrapper.class.php',
-		'DbConfig'				=> PUBLIC_CONF_PATH .'/DbConfig.class.php',
+		'Db'				=> PUBLIC_PATH .'/db/Db.class.php',
+		'DbWrapper'			=> PUBLIC_PATH .'/db/DbWrapper.class.php',
+		'DbConfig'			=> PUBLIC_CONF_PATH .'/DbConfig.class.php',
 
-		'Utils'					=> PUBLIC_PATH .'/utils/Utils.class.php',
+		'Utils'				=> PUBLIC_PATH .'/utils/Utils.class.php',
 		'ResourceFactory'		=> PUBLIC_PATH .'/utils/ResourceFactory.class.php',
+		'RequestCore'			=> PUBLIC_PATH .'/utils/RequestCore.class.php',
 
-		'Timer'					=> PUBLIC_PATH .'/utils/Timer.class.php',
-		// 'IaskSapi'      => PUBLIC_PATH .'/fhsdk/IaskSapi.class.php',		
-		// 'PassportSapi'      => PUBLIC_PATH .'/fhsdk/PassportSapi.class.php',
-		// 'WidgetSapi'	=>PUBLIC_PATH .'/fhsdk/WidgetSapi.class.php',
+		'Timer'				=> PUBLIC_PATH .'/utils/Timer.class.php',
+		'BaseSapi'      		=> PUBLIC_PATH .'/sdk/BaseSapi.class.php',		
+		'DataSapi'      		=> PUBLIC_PATH .'/sdk/DataSapi.class.php',		
 		);
 	}
 

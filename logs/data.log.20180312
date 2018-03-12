@@ -1,0 +1,669 @@
+DEBUG: 03-12 15:15:13: [Db.class.php:166] ip[127.0.0.1] logId[1246873941] uri[/get/house/ajk] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:15:13: [Db.class.php:516] ip[127.0.0.1] logId[1246873941] uri[/get/house/ajk] time_used[7] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:15:55: [Db.class.php:166] ip[127.0.0.1] logId[1251095195] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:15:55: [Db.class.php:516] ip[127.0.0.1] logId[1251095195] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:16:05: [Db.class.php:166] ip[127.0.0.1] logId[1252081657] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:16:05: [Db.class.php:516] ip[127.0.0.1] logId[1252081657] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:17:02: [Db.class.php:166] ip[127.0.0.1] logId[1257778499] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:17:02: [Db.class.php:516] ip[127.0.0.1] logId[1257778499] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:25:38: [Db.class.php:166] ip[127.0.0.1] logId[1309371211] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:25:38: [Db.class.php:516] ip[127.0.0.1] logId[1309371211] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:26:17: [Db.class.php:166] ip[127.0.0.1] logId[1313294035] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:26:17: [Db.class.php:516] ip[127.0.0.1] logId[1313294035] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:32:58: [Db.class.php:166] ip[127.0.0.1] logId[1353386925] uri[/get/house/ajk?token=42d80aebaaabf2c092f9aaac55d79df2399fb28c&appid=inner] time_used[3] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:32:58: [Db.class.php:516] ip[127.0.0.1] logId[1353386925] uri[/get/house/ajk?token=42d80aebaaabf2c092f9aaac55d79df2399fb28c&appid=inner] time_used[4] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:33:04: [Db.class.php:166] ip[127.0.0.1] logId[1354028529] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:33:04: [Db.class.php:516] ip[127.0.0.1] logId[1354028529] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:33:14: [Db.class.php:166] ip[127.0.0.1] logId[1354998583] uri[/get/house/ajk?token=42d80aebaaabf2c092f9aaac55d79df2399fb28c&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:33:14: [Db.class.php:516] ip[127.0.0.1] logId[1354998583] uri[/get/house/ajk?token=42d80aebaaabf2c092f9aaac55d79df2399fb28c&appid=inner] time_used[9] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:34:47: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1364299518] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[2] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+)
+DEBUG: 03-12 15:34:47: [Db.class.php:166] ip[127.0.0.1] logId[1364299518] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:34:47: [Db.class.php:516] ip[127.0.0.1] logId[1364299518] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:35:27: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1368292766] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[2] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+)
+DEBUG: 03-12 15:35:27: [Db.class.php:166] ip[127.0.0.1] logId[1368292766] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:35:27: [Db.class.php:516] ip[127.0.0.1] logId[1368292766] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:40:42: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1399816855] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request: 
+DEBUG: 03-12 15:40:42: [Db.class.php:166] ip[127.0.0.1] logId[1399816855] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:40:42: [Db.class.php:516] ip[127.0.0.1] logId[1399816855] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:42:10: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1408586459] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request: 
+DEBUG: 03-12 15:42:10: [Db.class.php:166] ip[127.0.0.1] logId[1408586459] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:42:10: [Db.class.php:516] ip[127.0.0.1] logId[1408586459] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:45:38: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1429372403] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request: 
+DEBUG: 03-12 15:45:38: [Db.class.php:166] ip[127.0.0.1] logId[1429372403] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:45:38: [Db.class.php:516] ip[127.0.0.1] logId[1429372403] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[9] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:54:04: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1479966296] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request: 
+DEBUG: 03-12 15:54:04: [Db.class.php:166] ip[127.0.0.1] logId[1479966296] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:54:04: [Db.class.php:516] ip[127.0.0.1] logId[1479966296] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 15:57:48: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1502423621] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58717',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520841468.90748,
+  'REQUEST_TIME' => 1520841468,
+)
+DEBUG: 03-12 15:57:48: [Db.class.php:166] ip[127.0.0.1] logId[1502423621] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 15:57:48: [Db.class.php:516] ip[127.0.0.1] logId[1502423621] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[9] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:04:28: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1542367052] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[2] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58758',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520841868.3447771,
+  'REQUEST_TIME' => 1520841868,
+)
+DEBUG: 03-12 16:04:28: [Db.class.php:166] ip[127.0.0.1] logId[1542367052] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:04:28: [Db.class.php:516] ip[127.0.0.1] logId[1542367052] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:05:43: [AsyncBaseAction.class.php:15] ip[127.0.0.1] logId[1549839048] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[2] ===============================
+DEBUG: 03-12 16:05:43: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1549839048] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58776',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520841943.064292,
+  'REQUEST_TIME' => 1520841943,
+)
+DEBUG: 03-12 16:05:43: [Db.class.php:166] ip[127.0.0.1] logId[1549839048] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:05:43: [Db.class.php:516] ip[127.0.0.1] logId[1549839048] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[9] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:06:57: [AsyncBaseAction.class.php:108] ip[127.0.0.1] logId[1557256741] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] ===================
+DEBUG: 03-12 16:06:57: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1557256741] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58788',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520842017.240309,
+  'REQUEST_TIME' => 1520842017,
+)
+DEBUG: 03-12 16:06:57: [Db.class.php:166] ip[127.0.0.1] logId[1557256741] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:06:57: [Db.class.php:516] ip[127.0.0.1] logId[1557256741] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[11] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:07:42: [AsyncBaseAction.class.php:107] ip[127.0.0.1] logId[1561809344] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] ===== '{"page":"1","pageSize":"9"}'
+DEBUG: 03-12 16:07:42: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1561809344] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58799',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520842062.7663031,
+  'REQUEST_TIME' => 1520842062,
+)
+DEBUG: 03-12 16:07:42: [Db.class.php:166] ip[127.0.0.1] logId[1561809344] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[15] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:07:42: [Db.class.php:516] ip[127.0.0.1] logId[1561809344] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[16] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:08:08: [AsyncBaseAction.class.php:107] ip[127.0.0.1] logId[1564356448] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[1] ===== '{"page":"1","pageSize":"9"}'
+DEBUG: 03-12 16:08:08: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1564356448] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[2] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58806',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520842088.239311,
+  'REQUEST_TIME' => 1520842088,
+)
+DEBUG: 03-12 16:08:08: [Db.class.php:166] ip[127.0.0.1] logId[1564356448] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:08:08: [Db.class.php:516] ip[127.0.0.1] logId[1564356448] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[9] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:09:41: [AsyncBaseAction.class.php:112] ip[127.0.0.1] logId[1573638432] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[1] {{{{{{{{{{{{{{{{{{{{[[Array}}}}}}}}}}}}}]]]
+DEBUG: 03-12 16:09:41: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1573638432] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[1] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58816',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520842181.0588429,
+  'REQUEST_TIME' => 1520842181,
+)
+DEBUG: 03-12 16:09:41: [Db.class.php:166] ip[127.0.0.1] logId[1573638432] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:09:41: [Db.class.php:516] ip[127.0.0.1] logId[1573638432] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:09:59: [AsyncBaseAction.class.php:112] ip[127.0.0.1] logId[1575467510] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[2] {{{{{{{{{{{{{{{{{{{{[[array (
+  'page' => '1',
+  'pageSize' => '9',
+)}}}}}}}}}}}}}]]]
+DEBUG: 03-12 16:09:59: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1575467510] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[2] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58823',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520842199.3493719,
+  'REQUEST_TIME' => 1520842199,
+)
+DEBUG: 03-12 16:09:59: [Db.class.php:166] ip[127.0.0.1] logId[1575467510] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:09:59: [Db.class.php:516] ip[127.0.0.1] logId[1575467510] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:11:20: [AsyncBaseAction.class.php:17] ip[127.0.0.1] logId[1583540333] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[2] +++++++++++++++++array (
+  'page' => '1',
+  'pageSize' => '9',
+)
+DEBUG: 03-12 16:11:20: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1583540333] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[2] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58831',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520842280.077651,
+  'REQUEST_TIME' => 1520842280,
+)
+DEBUG: 03-12 16:11:20: [Db.class.php:166] ip[127.0.0.1] logId[1583540333] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:11:20: [Db.class.php:516] ip[127.0.0.1] logId[1583540333] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:11:44: [AsyncBaseAction.class.php:18] ip[127.0.0.1] logId[1585936556] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] +++++++++++++++++array (
+  'page' => '1',
+  'pageSize' => '9',
+)
+DEBUG: 03-12 16:11:44: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1585936556] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58838',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520842304.0393209,
+  'REQUEST_TIME' => 1520842304,
+)
+DEBUG: 03-12 16:11:44: [Db.class.php:166] ip[127.0.0.1] logId[1585936556] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:11:44: [Db.class.php:516] ip[127.0.0.1] logId[1585936556] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:13:26: [AsyncBaseAction.class.php:18] ip[127.0.0.1] logId[1596145705] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[1] ================== this->get(page): 
+DEBUG: 03-12 16:13:26: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1596145705] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[1] request param; array (
+  'page' => NULL,
+  'pageSize' => NULL,
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58860',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520842406.132087,
+  'REQUEST_TIME' => 1520842406,
+)
+DEBUG: 03-12 16:13:26: [Db.class.php:166] ip[127.0.0.1] logId[1596145705] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:13:26: [Db.class.php:516] ip[127.0.0.1] logId[1596145705] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,10] msg[execute mysql]
+DEBUG: 03-12 16:19:43: [GetHouseAjkAction.class.php:25] ip[127.0.0.1] logId[1633847967] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] request param; array (
+  'page' => '1',
+  'pageSize' => '9',
+) request:  _SERVER:array (
+  'USER' => 'www-data',
+  'HOME' => '/var/www',
+  'FCGI_ROLE' => 'RESPONDER',
+  'SCRIPT_FILENAME' => '/var/www/projects/data/index.php',
+  'QUERY_STRING' => 'token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'REQUEST_METHOD' => 'POST',
+  'CONTENT_TYPE' => 'application/json',
+  'CONTENT_LENGTH' => '27',
+  'SCRIPT_NAME' => '/index.php',
+  'REQUEST_URI' => '/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'DOCUMENT_URI' => '/index.php',
+  'DOCUMENT_ROOT' => '/var/www/projects/data',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_SOFTWARE' => 'nginx/1.8.0',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'REMOTE_PORT' => '58880',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'SERVER_NAME' => 'data.test.com',
+  'REDIRECT_STATUS' => '200',
+  'HTTP_USER_AGENT' => 'Mozilla/CB ResponseCore Version/1.0 HttpSapi',
+  'HTTP_HOST' => 'data.test.com',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'HTTP_REFERER' => 'http://data.test.com/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner',
+  'HTTP_CONTENT_TYPE' => 'application/json',
+  'HTTP_CONTENT_LENGTH' => '27',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1520842783.153213,
+  'REQUEST_TIME' => 1520842783,
+)
+DEBUG: 03-12 16:19:43: [Db.class.php:166] ip[127.0.0.1] logId[1633847967] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:19:43: [Db.class.php:516] ip[127.0.0.1] logId[1633847967] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:20:05: [Db.class.php:166] ip[127.0.0.1] logId[1636076650] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:20:05: [Db.class.php:516] ip[127.0.0.1] logId[1636076650] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:20:07: [Db.class.php:166] ip[127.0.0.1] logId[1636248953] uri[/get/house/ajk?token=42d80aebaaabf2c092f9aaac55d79df2399fb28c&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:20:07: [Db.class.php:516] ip[127.0.0.1] logId[1636248953] uri[/get/house/ajk?token=42d80aebaaabf2c092f9aaac55d79df2399fb28c&appid=inner] time_used[5] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 9,9] msg[execute mysql]
+DEBUG: 03-12 16:20:09: [Db.class.php:166] ip[127.0.0.1] logId[1636437887] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:20:09: [Db.class.php:516] ip[127.0.0.1] logId[1636437887] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:20:11: [Db.class.php:166] ip[127.0.0.1] logId[1636636222] uri[/get/house/ajk?token=42d80aebaaabf2c092f9aaac55d79df2399fb28c&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:20:11: [Db.class.php:516] ip[127.0.0.1] logId[1636636222] uri[/get/house/ajk?token=42d80aebaaabf2c092f9aaac55d79df2399fb28c&appid=inner] time_used[5] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 9,9] msg[execute mysql]
+DEBUG: 03-12 16:20:11: [Db.class.php:166] ip[127.0.0.1] logId[1636731229] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:20:11: [Db.class.php:516] ip[127.0.0.1] logId[1636731229] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:20:13: [Db.class.php:166] ip[127.0.0.1] logId[1636882375] uri[/get/house/ajk?token=42d80aebaaabf2c092f9aaac55d79df2399fb28c&appid=inner] time_used[3] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:20:13: [Db.class.php:516] ip[127.0.0.1] logId[1636882375] uri[/get/house/ajk?token=42d80aebaaabf2c092f9aaac55d79df2399fb28c&appid=inner] time_used[4] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 9,9] msg[execute mysql]
+DEBUG: 03-12 16:23:10: [Db.class.php:166] ip[127.0.0.1] logId[1654562440] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:23:10: [Db.class.php:516] ip[127.0.0.1] logId[1654562440] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:23:12: [Db.class.php:166] ip[127.0.0.1] logId[1654766486] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[3] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:23:12: [Db.class.php:516] ip[127.0.0.1] logId[1654766486] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:24:32: [Db.class.php:166] ip[127.0.0.1] logId[1662827738] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:24:32: [Db.class.php:516] ip[127.0.0.1] logId[1662827738] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:25:49: [Db.class.php:166] ip[127.0.0.1] logId[1670528030] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:25:49: [Db.class.php:516] ip[127.0.0.1] logId[1670528030] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:26:59: [Db.class.php:166] ip[127.0.0.1] logId[1677493486] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:26:59: [Db.class.php:516] ip[127.0.0.1] logId[1677493486] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:27:00: [Db.class.php:166] ip[127.0.0.1] logId[1677550300] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:27:00: [Db.class.php:516] ip[127.0.0.1] logId[1677550300] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:27:00: [Db.class.php:166] ip[127.0.0.1] logId[1677580231] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:27:00: [Db.class.php:516] ip[127.0.0.1] logId[1677580231] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:27:01: [Db.class.php:166] ip[127.0.0.1] logId[1677677260] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:27:01: [Db.class.php:516] ip[127.0.0.1] logId[1677677260] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:27:01: [Db.class.php:166] ip[127.0.0.1] logId[1677699304] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:27:01: [Db.class.php:516] ip[127.0.0.1] logId[1677699304] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:27:01: [Db.class.php:166] ip[127.0.0.1] logId[1677727077] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:27:01: [Db.class.php:516] ip[127.0.0.1] logId[1677727077] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[8] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:27:02: [Db.class.php:166] ip[127.0.0.1] logId[1677762784] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:27:02: [Db.class.php:516] ip[127.0.0.1] logId[1677762784] uri[/get/house/ajk?token=5094f701f6aa191de5dc2d78d6ced91ea3f68eb1&appid=inner] time_used[6] sql[SELECT * FROM ajk_house ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:45:49: [Db.class.php:166] ip[127.0.0.1] logId[1790500431] uri[/get/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:45:49: [Db.class.php:516] ip[127.0.0.1] logId[1790500431] uri[/get/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[5] sql[SELECT * FROM ajk_house  ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:45:58: [Db.class.php:166] ip[127.0.0.1] logId[1791402483] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:45:58: [Db.class.php:516] ip[127.0.0.1] logId[1791402483] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[4] sql[SELECT * FROM ajk_house  ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:46:05: [Db.class.php:166] ip[127.0.0.1] logId[1792073221] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:46:05: [Db.class.php:516] ip[127.0.0.1] logId[1792073221] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[8] sql[SELECT * FROM ajk_house  ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:46:46: [Db.class.php:166] ip[127.0.0.1] logId[1796162657] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:46:46: [Db.class.php:516] ip[127.0.0.1] logId[1796162657] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[6] sql[SELECT * FROM ajk_house  ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:47:34: [AjkHouseDao.class.php:53] ip[127.0.0.1] logId[1800982875] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[7] =================array (
+  'page' => '1',
+  'pageSize' => '9',
+  'siteName' => '',
+  'totalSize' => '',
+  'userName' => '孙丽丽',
+)
+DEBUG: 03-12 16:47:34: [Db.class.php:166] ip[127.0.0.1] logId[1800982875] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[9] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:47:34: [Db.class.php:516] ip[127.0.0.1] logId[1800982875] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[9] sql[SELECT * FROM ajk_house  ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:48:16: [Db.class.php:166] ip[127.0.0.1] logId[1805138880] uri[/get/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:48:16: [Db.class.php:516] ip[127.0.0.1] logId[1805138880] uri[/get/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[5] sql[SELECT * FROM ajk_house  ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:48:20: [Db.class.php:166] ip[127.0.0.1] logId[1805545810] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:48:20: [Db.class.php:516] ip[127.0.0.1] logId[1805545810] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[5] sql[SELECT * FROM ajk_house  WHERE  user_name="孙丽丽" AND  ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 16:49:16: [Db.class.php:166] ip[127.0.0.1] logId[1811229464] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 16:49:16: [Db.class.php:516] ip[127.0.0.1] logId[1811229464] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[8] sql[SELECT * FROM ajk_house  WHERE user_name="孙丽丽" ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:05:16: [Db.class.php:166] ip[127.0.0.1] logId[1907226300] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:05:16: [Db.class.php:516] ip[127.0.0.1] logId[1907226300] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[6] sql[SELECT * FROM ajk_house  WHERE user_name="孙丽丽" ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:05:16: [Db.class.php:166] ip[127.0.0.1] logId[1907227362] uri[/count/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:05:16: [Db.class.php:516] ip[127.0.0.1] logId[1907227362] uri[/count/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[7] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE user_name="孙丽丽"] msg[execute mysql]
+DEBUG: 03-12 17:05:16: [AjkHouseDao.class.php:105] ip[127.0.0.1] logId[1907227362] uri[/count/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[8] ==============array (
+  'num' => '2',
+)
+DEBUG: 03-12 17:06:14: [Db.class.php:166] ip[127.0.0.1] logId[1913027418] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:06:14: [Db.class.php:516] ip[127.0.0.1] logId[1913027418] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[5] sql[SELECT * FROM ajk_house  WHERE user_name="孙丽丽" ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:06:14: [Db.class.php:166] ip[127.0.0.1] logId[1913028194] uri[/count/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:06:14: [Db.class.php:516] ip[127.0.0.1] logId[1913028194] uri[/count/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[10] sql[SELECT COUNT(1) AS num FROMs ajk_house  WHERE user_name="孙丽丽"] msg[execute mysql]
+DEBUG: 03-12 17:06:14: [AjkHouseDao.class.php:106] ip[127.0.0.1] logId[1913028194] uri[/count/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[10] execute sql failure : SELECT COUNT(1) AS num FROMs ajk_house  WHERE user_name="孙丽丽"
+DEBUG: 03-12 17:08:46: [Db.class.php:166] ip[127.0.0.1] logId[1928161330] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:08:46: [Db.class.php:516] ip[127.0.0.1] logId[1928161330] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[4] sql[SELECT * FROM ajk_house  WHERE user_name="孙丽丽" ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:08:46: [Db.class.php:166] ip[127.0.0.1] logId[1928162074] uri[/count/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:08:46: [Db.class.php:516] ip[127.0.0.1] logId[1928162074] uri[/count/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[4] sql[SELECT COUNT(1) AS num FROMs ajk_house  WHERE user_name="孙丽丽"] msg[execute mysql]
+DEBUG: 03-12 17:08:47: [Db.class.php:166] ip[127.0.0.1] logId[1928239744] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:08:47: [Db.class.php:516] ip[127.0.0.1] logId[1928239744] uri[/get/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[4] sql[SELECT * FROM ajk_house  WHERE user_name="孙丽丽" ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:08:47: [Db.class.php:166] ip[127.0.0.1] logId[1928240469] uri[/count/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[3] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:08:47: [Db.class.php:516] ip[127.0.0.1] logId[1928240469] uri[/count/house/ajk?token=2b91fa107d0baece1e3df34e18e052733f38d75c&appid=inner] time_used[4] sql[SELECT COUNT(1) AS num FROMs ajk_house  WHERE user_name="孙丽丽"] msg[execute mysql]
+DEBUG: 03-12 17:08:49: [Db.class.php:166] ip[127.0.0.1] logId[1928523675] uri[/get/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:08:49: [Db.class.php:516] ip[127.0.0.1] logId[1928523675] uri[/get/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[5] sql[SELECT * FROM ajk_house  ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:08:49: [Db.class.php:166] ip[127.0.0.1] logId[1928524636] uri[/count/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:08:49: [Db.class.php:516] ip[127.0.0.1] logId[1928524636] uri[/count/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[5] sql[SELECT COUNT(1) AS num FROMs ajk_house ] msg[execute mysql]
+DEBUG: 03-12 17:08:50: [Db.class.php:166] ip[127.0.0.1] logId[1928580116] uri[/get/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:08:50: [Db.class.php:516] ip[127.0.0.1] logId[1928580116] uri[/get/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[6] sql[SELECT * FROM ajk_house  ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:08:50: [Db.class.php:166] ip[127.0.0.1] logId[1928581165] uri[/count/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:08:50: [Db.class.php:516] ip[127.0.0.1] logId[1928581165] uri[/count/house/ajk?token=6b0b296f6c6303780fe00a6b672e6f7e175edf18&appid=inner] time_used[6] sql[SELECT COUNT(1) AS num FROMs ajk_house ] msg[execute mysql]
+DEBUG: 03-12 17:09:04: [Db.class.php:166] ip[127.0.0.1] logId[1930010834] uri[/get/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:09:04: [Db.class.php:516] ip[127.0.0.1] logId[1930010834] uri[/get/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[6] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:09:04: [Db.class.php:166] ip[127.0.0.1] logId[1930011742] uri[/count/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:09:04: [Db.class.php:516] ip[127.0.0.1] logId[1930011742] uri[/count/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[6] sql[SELECT COUNT(1) AS num FROMs ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:09:37: [Db.class.php:166] ip[127.0.0.1] logId[1933257031] uri[/get/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:09:37: [Db.class.php:516] ip[127.0.0.1] logId[1933257031] uri[/get/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[6] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:09:37: [Db.class.php:166] ip[127.0.0.1] logId[1933257714] uri[/count/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:09:37: [Db.class.php:516] ip[127.0.0.1] logId[1933257714] uri[/count/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[4] sql[SELECT COUNT(1) AS num FROMs ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:10:05: [Db.class.php:166] ip[127.0.0.1] logId[1936067508] uri[/get/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:10:05: [Db.class.php:516] ip[127.0.0.1] logId[1936067508] uri[/get/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[6] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:10:05: [Db.class.php:166] ip[127.0.0.1] logId[1936068245] uri[/count/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:10:05: [Db.class.php:516] ip[127.0.0.1] logId[1936068245] uri[/count/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[5] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:11:17: [Db.class.php:166] ip[127.0.0.1] logId[1943264529] uri[/get/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:17: [Db.class.php:516] ip[127.0.0.1] logId[1943264529] uri[/get/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[5] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 0,9] msg[execute mysql]
+DEBUG: 03-12 17:11:17: [Db.class.php:166] ip[127.0.0.1] logId[1943265284] uri[/count/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:17: [Db.class.php:516] ip[127.0.0.1] logId[1943265284] uri[/count/house/ajk?token=2dd3672ed641cb9bda0af5a8c6057f2e75b106d3&appid=inner] time_used[4] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:11:31: [Db.class.php:166] ip[127.0.0.1] logId[1944716650] uri[/get/house/ajk?token=15dbe278ab0a510253b20b021163e6bc60830ec9&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:31: [Db.class.php:516] ip[127.0.0.1] logId[1944716650] uri[/get/house/ajk?token=15dbe278ab0a510253b20b021163e6bc60830ec9&appid=inner] time_used[4] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 9,9] msg[execute mysql]
+DEBUG: 03-12 17:11:31: [Db.class.php:166] ip[127.0.0.1] logId[1944717332] uri[/count/house/ajk?token=15dbe278ab0a510253b20b021163e6bc60830ec9&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:31: [Db.class.php:516] ip[127.0.0.1] logId[1944717332] uri[/count/house/ajk?token=15dbe278ab0a510253b20b021163e6bc60830ec9&appid=inner] time_used[5] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:11:32: [Db.class.php:166] ip[127.0.0.1] logId[1944796195] uri[/get/house/ajk?token=2df5970207c7f959a5a038bf3cd232e67c617d08&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:32: [Db.class.php:516] ip[127.0.0.1] logId[1944796195] uri[/get/house/ajk?token=2df5970207c7f959a5a038bf3cd232e67c617d08&appid=inner] time_used[4] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 18,9] msg[execute mysql]
+DEBUG: 03-12 17:11:32: [Db.class.php:166] ip[127.0.0.1] logId[1944796901] uri[/count/house/ajk?token=2df5970207c7f959a5a038bf3cd232e67c617d08&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:32: [Db.class.php:516] ip[127.0.0.1] logId[1944796901] uri[/count/house/ajk?token=2df5970207c7f959a5a038bf3cd232e67c617d08&appid=inner] time_used[5] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:11:33: [Db.class.php:166] ip[127.0.0.1] logId[1944840010] uri[/get/house/ajk?token=8c01c37385b94f9f7d965311005f1c7b40abb180&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:33: [Db.class.php:516] ip[127.0.0.1] logId[1944840010] uri[/get/house/ajk?token=8c01c37385b94f9f7d965311005f1c7b40abb180&appid=inner] time_used[8] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 27,9] msg[execute mysql]
+DEBUG: 03-12 17:11:33: [Db.class.php:166] ip[127.0.0.1] logId[1944841193] uri[/count/house/ajk?token=8c01c37385b94f9f7d965311005f1c7b40abb180&appid=inner] time_used[7] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:33: [Db.class.php:516] ip[127.0.0.1] logId[1944841193] uri[/count/house/ajk?token=8c01c37385b94f9f7d965311005f1c7b40abb180&appid=inner] time_used[8] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:11:33: [Db.class.php:166] ip[127.0.0.1] logId[1944901889] uri[/get/house/ajk?token=77b84b90518dad66ade6fd6fa75daae91dbece9a&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:33: [Db.class.php:516] ip[127.0.0.1] logId[1944901889] uri[/get/house/ajk?token=77b84b90518dad66ade6fd6fa75daae91dbece9a&appid=inner] time_used[5] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 36,9] msg[execute mysql]
+DEBUG: 03-12 17:11:33: [Db.class.php:166] ip[127.0.0.1] logId[1944902645] uri[/count/house/ajk?token=77b84b90518dad66ade6fd6fa75daae91dbece9a&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:33: [Db.class.php:516] ip[127.0.0.1] logId[1944902645] uri[/count/house/ajk?token=77b84b90518dad66ade6fd6fa75daae91dbece9a&appid=inner] time_used[4] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:11:34: [Db.class.php:166] ip[127.0.0.1] logId[1944963522] uri[/get/house/ajk?token=80a0d7c2a5b9d39e26e448dbc018399496d0c3f1&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:34: [Db.class.php:516] ip[127.0.0.1] logId[1944963522] uri[/get/house/ajk?token=80a0d7c2a5b9d39e26e448dbc018399496d0c3f1&appid=inner] time_used[5] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 45,9] msg[execute mysql]
+DEBUG: 03-12 17:11:34: [Db.class.php:166] ip[127.0.0.1] logId[1944964335] uri[/count/house/ajk?token=80a0d7c2a5b9d39e26e448dbc018399496d0c3f1&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:34: [Db.class.php:516] ip[127.0.0.1] logId[1944964335] uri[/count/house/ajk?token=80a0d7c2a5b9d39e26e448dbc018399496d0c3f1&appid=inner] time_used[5] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:11:34: [Db.class.php:166] ip[127.0.0.1] logId[1945020236] uri[/get/house/ajk?token=314bb2e923997e12798a87382a43a8a41a4293ca&appid=inner] time_used[3] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:34: [Db.class.php:516] ip[127.0.0.1] logId[1945020236] uri[/get/house/ajk?token=314bb2e923997e12798a87382a43a8a41a4293ca&appid=inner] time_used[4] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 54,9] msg[execute mysql]
+DEBUG: 03-12 17:11:34: [Db.class.php:166] ip[127.0.0.1] logId[1945020953] uri[/count/house/ajk?token=314bb2e923997e12798a87382a43a8a41a4293ca&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:34: [Db.class.php:516] ip[127.0.0.1] logId[1945020953] uri[/count/house/ajk?token=314bb2e923997e12798a87382a43a8a41a4293ca&appid=inner] time_used[5] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:11:35: [Db.class.php:166] ip[127.0.0.1] logId[1945063584] uri[/get/house/ajk?token=6ce951489cb6597dcd60631268f9a3dd01c92dcd&appid=inner] time_used[3] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:35: [Db.class.php:516] ip[127.0.0.1] logId[1945063584] uri[/get/house/ajk?token=6ce951489cb6597dcd60631268f9a3dd01c92dcd&appid=inner] time_used[4] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 63,9] msg[execute mysql]
+DEBUG: 03-12 17:11:35: [Db.class.php:166] ip[127.0.0.1] logId[1945064299] uri[/count/house/ajk?token=6ce951489cb6597dcd60631268f9a3dd01c92dcd&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:35: [Db.class.php:516] ip[127.0.0.1] logId[1945064299] uri[/count/house/ajk?token=6ce951489cb6597dcd60631268f9a3dd01c92dcd&appid=inner] time_used[4] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:11:35: [Db.class.php:166] ip[127.0.0.1] logId[1945129033] uri[/get/house/ajk?token=0b3e97dc3b47c312bf789c06e909a6d6fbadff0a&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:35: [Db.class.php:516] ip[127.0.0.1] logId[1945129033] uri[/get/house/ajk?token=0b3e97dc3b47c312bf789c06e909a6d6fbadff0a&appid=inner] time_used[5] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 72,9] msg[execute mysql]
+DEBUG: 03-12 17:11:35: [Db.class.php:166] ip[127.0.0.1] logId[1945129818] uri[/count/house/ajk?token=0b3e97dc3b47c312bf789c06e909a6d6fbadff0a&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:35: [Db.class.php:516] ip[127.0.0.1] logId[1945129818] uri[/count/house/ajk?token=0b3e97dc3b47c312bf789c06e909a6d6fbadff0a&appid=inner] time_used[5] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:11:36: [Db.class.php:166] ip[127.0.0.1] logId[1945209162] uri[/get/house/ajk?token=22001bc837f4d0518ea0d0053910da5d9825a867&appid=inner] time_used[3] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:36: [Db.class.php:516] ip[127.0.0.1] logId[1945209162] uri[/get/house/ajk?token=22001bc837f4d0518ea0d0053910da5d9825a867&appid=inner] time_used[4] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 81,9] msg[execute mysql]
+DEBUG: 03-12 17:11:36: [Db.class.php:166] ip[127.0.0.1] logId[1945209898] uri[/count/house/ajk?token=22001bc837f4d0518ea0d0053910da5d9825a867&appid=inner] time_used[4] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:11:36: [Db.class.php:516] ip[127.0.0.1] logId[1945209898] uri[/count/house/ajk?token=22001bc837f4d0518ea0d0053910da5d9825a867&appid=inner] time_used[5] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]
+DEBUG: 03-12 17:13:02: [Db.class.php:166] ip[127.0.0.1] logId[1953773312] uri[/get/house/ajk?token=b9d918734d8813ce926169a96a3b2880efdeaadc&appid=inner] time_used[6] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:13:02: [Db.class.php:516] ip[127.0.0.1] logId[1953773312] uri[/get/house/ajk?token=b9d918734d8813ce926169a96a3b2880efdeaadc&appid=inner] time_used[7] sql[SELECT * FROM ajk_house  WHERE total_size="90平" ORDER BY id DESC LIMIT 126,9] msg[execute mysql]
+DEBUG: 03-12 17:13:02: [Db.class.php:166] ip[127.0.0.1] logId[1953774245] uri[/count/house/ajk?token=b9d918734d8813ce926169a96a3b2880efdeaadc&appid=inner] time_used[5] module[db] ip[127.0.0.1] port[3306] msg[try connect]
+DEBUG: 03-12 17:13:02: [Db.class.php:516] ip[127.0.0.1] logId[1953774245] uri[/count/house/ajk?token=b9d918734d8813ce926169a96a3b2880efdeaadc&appid=inner] time_used[6] sql[SELECT COUNT(1) AS num FROM ajk_house  WHERE total_size="90平"] msg[execute mysql]

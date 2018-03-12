@@ -41,10 +41,10 @@ class CommonConst
 	const MESSAGE_READED = 1;
 
 	//HOST
-	const ADMIN_HOST = 'http://admin.test.com';
-	const STATIC_HOST = "http://static.test.com";
-	const FILE_HOST = "http://file.fh21.com";
-	const SAPI_HOST_IASK	 = 'http://iask.fh21.com';
+	const ADMIN_HOST	= 'http://admin.test.com';
+	const STATIC_HOST	= "http://static.test.com";
+	const DATA_HOST		= 'http://data.test.com';
+
 
 	const ERROR_TPL = 'error.tpl';
 	

@@ -57,3 +57,23 @@ CREATE TABLE `mg_admin_menu` (
   KEY parentid (`parentid`),
   KEY url (`url`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+/* 房屋数据分析 */
+CREATE TABLE `ajk_house` (
+  `id` 			int(10) 		NOT NULL AUTO_INCREMENT,
+  `house_num` 	varchar(20) 	NOT NULL DEFAULT '0'	COMMENT '房屋编号',
+  `site_name` 	varchar(50) 	NOT NULL DEFAULT ''	COMMENT '小区名称',
+  `send_time` 	int(10) 		NOT NULL DEFAULT '0'	COMMENT '挂牌时间',
+  `total_price` varchar(20) 	NOT NULL DEFAULT '0'	COMMENT '总报价',
+  `total_size` 	varchar(20) 	NOT NULL DEFAULT '0'	COMMENT '总面积',
+  `house_type` 	varchar(30) 	NOT NULL DEFAULT ''	COMMENT '房屋户型',
+  `build_year` 	varchar(20) 	NOT NULL DEFAULT ''	COMMENT '建成年份',
+  `decorate_state` varchar(20) NOT NULL DEFAULT ''	COMMENT '装修状态',
+  `user_name` 	varchar(30) 	NOT NULL DEFAULT ''	COMMENT '业务员名称',
+  `user_mobile` varchar(20) 	NOT NULL DEFAULT ''	COMMENT '业务员手机号',
+  `user_gate` 	varchar(100) 	NOT NULL DEFAULT ''	COMMENT '业务员所属门店',
+  `url` 		varchar(500) 	NOT NULL DEFAULT ''	COMMENT '网页地址',
+  PRIMARY KEY (`id`),
+  KEY `house_num` (`house_num`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -1,8 +1,10 @@
 <?php
 /**
- * @brief Handles all HTTP requests using cURL and manages the responses.
+ * Handles all HTTP requests using cURL and manages the responses.
  *  
- **/
+ * @param addTime 2018-03-12
+ * @param author   ChengBo
+ */
 class RequestCore {
 	/**
 	 * The URL being requested.
@@ -41,6 +43,10 @@ class RequestCore {
 	 */
 	public $curl_handle;
 	/**
+	 * The request timeout.
+	 */
+	public $timeout = 5;
+	/**
 	 * The method by which the request is being made.
 	 */
 	public $method;
@@ -75,7 +81,7 @@ class RequestCore {
 	/**
 	 * Default useragent string to use.
 	 */
-	public $useragent = 'RequestCore/1.4.2';
+	public $useragent = 'Mozilla/CB ResponseCore Version/1.0 HttpSapi';
 	/**
 	 * File to read from while streaming up.
 	 */
@@ -220,6 +226,16 @@ class RequestCore {
 		if (isset ( $this->request_headers [$key] )) {
 			unset ( $this->request_headers [$key] );
 		}
+		return $this;
+	}
+	/**
+	 * Set request timeout.
+	 *
+	 * @param integer $timeout (Required)
+	 * @return $this A reference to the current instance.
+	 */
+	public function set_timeout($timeout) {
+		$this->timeout = $timeout;
 		return $this;
 	}
 	/**
@@ -495,23 +511,25 @@ class RequestCore {
 		curl_setopt ( $curl_handle, CURLOPT_FILETIME, true );
 		curl_setopt ( $curl_handle, CURLOPT_FRESH_CONNECT, false );
 		curl_setopt ( $curl_handle, CURLOPT_SSL_VERIFYPEER, false );
-		curl_setopt ( $curl_handle, CURLOPT_SSL_VERIFYHOST, true );
-		curl_setopt ( $curl_handle, CURLOPT_CLOSEPOLICY, CURLCLOSEPOLICY_LEAST_RECENTLY_USED );
+		curl_setopt ( $curl_handle, CURLOPT_SSL_VERIFYHOST, 2 );
+		//curl_setopt ( $curl_handle, CURLOPT_CLOSEPOLICY, CURLCLOSEPOLICY_LEAST_RECENTLY_USED );
 		curl_setopt ( $curl_handle, CURLOPT_MAXREDIRS, 5 );
 		curl_setopt ( $curl_handle, CURLOPT_HEADER, true );
 		curl_setopt ( $curl_handle, CURLOPT_RETURNTRANSFER, true );
-		curl_setopt ( $curl_handle, CURLOPT_TIMEOUT, 10 );
+		curl_setopt ( $curl_handle, CURLOPT_TIMEOUT, $this->timeout );
 		curl_setopt ( $curl_handle, CURLOPT_CONNECTTIMEOUT, 5 );
 		curl_setopt ( $curl_handle, CURLOPT_NOSIGNAL, true );
 		curl_setopt ( $curl_handle, CURLOPT_REFERER, $this->request_url );
 		curl_setopt ( $curl_handle, CURLOPT_USERAGENT, $this->useragent );
-		curl_setopt ( $curl_handle, CURLOPT_READFUNCTION, array (
-				$this, 'streaming_read_callback' ) );
+		curl_setopt ( $curl_handle, CURLOPT_READFUNCTION, array ($this, 'streaming_read_callback' ) );
+        //saltkey
+		if(isset($_COOKIE['saltkey'])){
+			curl_setopt ( $curl_handle, CURLOPT_COOKIE, 'saltkey='.$_COOKIE['saltkey']);
+		}
 		if ($this->debug_mode) {
 			curl_setopt ( $curl_handle, CURLOPT_VERBOSE, true );
 		}
 		if (! ini_get ( 'safe_mode' )) {
-			//modify by zhengkan
 		//curl_setopt($curl_handle, CURLOPT_FOLLOWLOCATION, true);
 		}
 		// Enable a proxy connection if requested.
@@ -644,16 +662,9 @@ class RequestCore {
 	 */
 	public function send_request($parse = false) {
 		set_time_limit ( 0 );
-		$retry=1;
 		$curl_handle = $this->prep_request ();
 		$this->response = curl_exec ( $curl_handle );
 		$info = curl_getinfo($curl_handle);
-		while ($this->response === false && $retry<=3 ) {
-			$curl_handle = $this->prep_request ();
-			$this->response = curl_exec ( $curl_handle );
-			$info = curl_getinfo($curl_handle);
-			$retry++;
-		}
 		if($this->response === false)
 		{
 			throw new RequestCore_Exception ( 'cURL resource: ' . ( string ) $curl_handle . '; cURL error: ' . curl_error ( $curl_handle ) . ' (' . curl_errno ( $curl_handle ) . ')' );
@@ -815,5 +826,4 @@ class ResponseCore {
 /**
  * Default RequestCore Exception.
  */
-class RequestCore_Exception extends Exception {
-}
+class RequestCore_Exception extends Exception {}

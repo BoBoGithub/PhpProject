@@ -44,6 +44,9 @@ ActionControllerConfig::$config = array(
 		'/setup/del/menu'	=> array('SetUpDelMenuAction'),
 		'/setup/get/sub/menu'	=> array('SetUpGetSubMenuAction'),
 
+		//数据分析
+		'/data/house/ajk'	=> array('DataHouseAjkAction'),
+		'/data/get/ajk/house'	=> array('GetHouseAjkListAction'),
 		
 	),
 	'prefix_mapping'=>array(
