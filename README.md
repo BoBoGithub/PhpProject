@@ -20,3 +20,6 @@
 #### 2018/03/12 新增数据统计模块/后台模块和统计模块通过http通信/后台数据展示
 
 <img src="https://github.com/BoBoGithub/PhpProject/blob/master/doc/git_img/2018-03-12%2017:17:09%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png?raw=true">
+
+#### 2018/03/19 新增数据分析模块采集脚本(定时任务/消息队列)
+

@@ -58,6 +58,18 @@ CREATE TABLE `mg_admin_menu` (
   KEY url (`url`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+/* 任务队列表 */
+CREATE TABLE `common_task_list` (
+  `id`		int(10) NOT NULL AUTO_INCREMENT COMMENT '自增id',
+  `module`	int(3) NOT NULL DEFAULT '0' COMMENT '模块ID',
+  `name`	varchar(100) NOT NULL COMMENT '任务名称',
+  `content`	varchar(5000) NOT NULL DEFAULT '' COMMENT '任务参数内容',
+  `ctime`	int(10) NOT NULL DEFAULT '0' COMMENT '添加时间',
+  `ftime`	int(10) NOT NULL DEFAULT '0' COMMENT '完成时间',
+  `status`	tinyint(3) NOT NULL DEFAULT '0' COMMENT '任务状态{0:新任务 1:处理中 2:处理成功 3:处理失败}',
+  PRIMARY key(`id`),
+  INDEX module_status(`module`,`status`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '任务队列表';
 
 /* 房屋数据分析 */
 CREATE TABLE `ajk_house` (

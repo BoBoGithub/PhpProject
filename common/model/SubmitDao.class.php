@@ -9,15 +9,14 @@ class SubmitDao {
 	private static $smysql = NULL;
 
 	//获取单例
-	public function getInstance() {
-		if (! isset ( self::$instance )) {
-			self::$instance = new SubmitDao ();
+	public static function getInstance() {
+		if(!isset(self::$instance)){
+			self::$instance = new SubmitDao();
 		}
 		return self::$instance;
 	}
 
-	protected function __construct() {
-	}
+	protected function __construct() {}
 
 	/**
 	 * @brief 添加任务
@@ -63,6 +62,8 @@ class SubmitDao {
 	}
 
 	public function getTaskList($module, $status) {
+		//TODO 优化下边的状态的事物查询更新操作
+		return false;
 		$arr = TableService::getDbName(true, NULL);
 		$dbname = $arr['db'];
 		$this->mysql = DbWrapper::getInstance($dbname);

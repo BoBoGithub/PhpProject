@@ -6,31 +6,22 @@
 class CommonConst
 {
 	//module ID
-	const MODULE_PASSPORT_ID = 1;
-	const MODULE_IASK_ID      = 2;
-	const MODULE_WIDGET_ID	= 3;
-	const MODULE_ADMIN_ID = 4;
-    	const MODULE_SYMPTOM_ID = 5;
+	const MODULE_PASSPORT_ID	= 1;
+	const MODULE_WIDGET_ID		= 2;
+	const MODULE_ADMIN_ID		= 3;
+	const MODULE_DATA_ID		= 4;
 	
    	//id generator
 	const ID_PASSPORT_USER_ID = 1;
-	const ID_PASSPORT_GOODS_ID = 2;
-	const ID_PASSPORT_ORDERS_ID = 3;
-	const ID_PASSPORT_CURRENCYLOG_ID = 4;
-
-	const ID_IASK_QUESTION_ID = 1;
-	const ID_IASK_ANSWER_ID = 2;
-	const ID_WIDGET_COMMENT = 1;
-	const ID_WIDGET_LIKE 	= 2;
-	const ID_WIDGET_GIFT = 3;
-	const ID_WIDGET_MES_sys = 4;
-	const ID_WIDGET_MES = 5;
-	const ID_WIDGET_MES_TAG = 6;
-
 	const ID_ADMIN_USER_ID = 1;
 	const ID_ADMIN_ROLE_ID = 2;
 	const ID_ADMIN_NODE_ID = 3;
 
+	//task status
+	const TASK_NEW   = 0;
+	const TASK_DOING = 1;
+	const TASK_SUCC  = 2;
+	const TASK_FAIL  = 3;
 
 	// page size
 	const COMMENT_PAGE_SIZE = 5;

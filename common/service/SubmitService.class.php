@@ -25,7 +25,7 @@ class SubmitService {
 
 	//获取任务列表
     public function getTaskList($module, $status) {
-		$submit_dao = SubmitDao::getInstance ();
+		$submit_dao = SubmitDao::getInstance();
 		return  $submit_dao->getTaskList($module, $status);
 	}
 

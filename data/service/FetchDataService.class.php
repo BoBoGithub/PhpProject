@@ -204,6 +204,9 @@ class FetchDataService{
 	 * @param author  ChengBo
 	 */
 	public function fetchAjkUrlData($url = ''){
+		//记录请求地址
+		CLog::debug("fetchAjkUrlData url: ".$url);
+
 		//检查url
 		if(!Utils::check_string($url)){
 			return '';

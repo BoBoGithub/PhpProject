@@ -1,2 +1,0 @@
-DEBUG: 03-19 14:53:46: [Db.class.php:166] ip[127.0.0.1] logId[1468633669] uri[/] time_used[17] module[db] ip[127.0.0.1] port[3306] msg[try connect]
-DEBUG: 03-19 14:53:46: [Db.class.php:516] ip[127.0.0.1] logId[1468633669] uri[/] time_used[18] sql[SELECT * FROM mg_admin_role_priv WHERE roleid=1] msg[execute mysql]
