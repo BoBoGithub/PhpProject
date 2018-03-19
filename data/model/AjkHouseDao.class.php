@@ -110,5 +110,54 @@ class AjkHouseDao {
 		return $countData['num'];
 	}
 
+	/**
+	 * 新增安居库房屋数据入库
+	 *
+	 * @param addTime 2018-03-19
+	 * @param author  ChengBo
+	 */
+	public function addAjkHouseData($param){
+		//定位数据库连接
+		$mysqlHandle	= $this->getDbResource(false, NULL);
+		
+		//定位数据表
+		$tableName	= 'ajk_house';
 
+		//插入数据
+		$insertRet	= $mysqlHandle->insert($param, $tableName);
+		if($insertRet === false){
+			CLog::warning("addAjkHouseData insert failure param: ".var_export($param, true));
+			return 0;
+		}
+
+		//返回插入的id
+		return $mysqlHandle->getLastInsertId();
+	}
+
+	/**
+	 * 查询指定房屋编号的数据
+	 *
+	 * @param int $houseNum 房屋编号id
+	 *
+	 * @param addTime 2018-03-19
+	 * @param author  ChengBo
+	 */
+	public function getHouseDataByNum($houseNum){
+		//定位数据库连接
+		$mysqlHandle	= $this->getDbResource(false, NULL);
+		
+		//定位数据表
+		$tableName	= 'ajk_house';
+
+		//设置查询条件
+		$where		= ' WHERE house_num=%d';
+
+		//调去数据
+		$sql		= 'SELECT id FROM '.$tableName.' '.$where;
+		
+		//执行sql
+		$houseData	= $mysqlHandle->queryFirstRow($sql, $houseNum); 
+
+		return $houseData;
+	}
 }

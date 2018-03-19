@@ -89,9 +89,9 @@ class CLog
     private function __construct(Array $conf, $startTime)
     {
     	$this->type		= $conf['type'];
-        $this->level	= $conf['level'];
+        $this->level		= $conf['level'];
         $this->path		= $conf['path'];
-        $this->filename	= $conf['filename'];
+        $this->filename		= $conf['filename'];
         
         $this->startTime	= $startTime;
         $this->logId		= $this->__logId();
