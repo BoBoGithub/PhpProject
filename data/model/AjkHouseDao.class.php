@@ -66,7 +66,7 @@ class AjkHouseDao {
 		$offset		= ($param['page'] - 1) * $param['pageSize'];
 
 		//调去数据
-		$sql		= 'SELECT * FROM '.$tableName.' '.$where.' ORDER BY id DESC LIMIT '.$offset.','.$param['pageSize'];
+		$sql		= 'SELECT * FROM '.$tableName.' '.$where.' ORDER BY send_time DESC LIMIT '.$offset.','.$param['pageSize'];
 		
 		//执行sql
 		$roleData	= $mysqlHandle->queryAllRows($sql); 
