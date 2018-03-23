@@ -13,6 +13,7 @@
 #### 2.3 修改Mysql/Redis的链接配置
 #### 2.4 配置域名 admin.test.com 指向 admin模块下的单一入口文件index.php
 #### 2.5 配置域名  data.test.com 指向 data 模块下的单一入口文件index.php
+#### 2.6 配置域名static.test.com 执行 resources/static 静态资源文件地址
 
 
 ## 更新记录:
@@ -23,3 +24,4 @@
 
 #### 2018/03/19 新增数据分析模块采集脚本(定时任务/消息队列)
 
+#### 2018/03/23 优化整理框架结构
