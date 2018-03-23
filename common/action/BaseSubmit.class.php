@@ -109,8 +109,8 @@ abstract class BaseSubmit {
 		
 		//设置执行参数
 		global $argv;
-        $total 		= isset($argv[1]) ? $argv[1] : NULL;
-        $current		= isset($argv[2]) ? $argv[2] : NULL;
+        	$total 		= isset($argv[1]) ? $argv[1] : NULL;
+        	$current	= isset($argv[2]) ? $argv[2] : NULL;
 		$runCount 	= 0;
 		
 		while(1) {

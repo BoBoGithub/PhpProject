@@ -1,9 +1,9 @@
 <?php
 /**
- * @brief passport test lib
+ * @brief admin test lib
  *  
  **/
-class Passport {
+class Admin {
 	/* http request method */
 	const http_get = 'GET';
 	const http_put = 'PUT';
@@ -181,7 +181,7 @@ class Passport {
 		}
 
 		/* 5) debug mode */
-		$reuqest->debug_mode = $this->debug_mode;
+		//$reuqest->debug_mode = $this->debug_mode;
 
 		/* 6) just for test*/
 		if (isset($opt['cookie_file'])) {
@@ -197,11 +197,11 @@ class Passport {
 		$this->error_message = '';
 	}
 
-	//注册
-	public function reg($param) {
+	//登录
+	public function login($param) {
 		$this->clear_error();
 		$method = self::http_post;
-		$requesttype = 'user/reg';
+		$requesttype = 'user/dologin';
 		$opts = array();
 		if($param) {
 			$opt['req_opts']['body'] = json_encode($param);

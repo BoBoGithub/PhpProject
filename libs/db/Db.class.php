@@ -9,7 +9,8 @@ class Db
 	 * mysqli instance
 	 * @var mysqli
 	 */
-	protected $mysqli = null;
+	//protected $mysqli = null;
+	public $mysqli = null;
 
 	protected $dbname = '';
 

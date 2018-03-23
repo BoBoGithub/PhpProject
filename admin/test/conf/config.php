@@ -9,14 +9,12 @@ spl_autoload_register('autoload');
 
 function autoload($class)
 {
-	require_once($class.'.class.php');
+	@require_once($class.'.class.php');
 }
-require_once(dirname(__FILE__).'/../../../phplib/utils/RequestCore.class.php');
+require_once(dirname(__FILE__).'/../../../libs/utils/RequestCore.class.php');
 
-$_ENV['url']   = 'passport.fh21.com.cn';
-$_ENV['uid'] = 1;
-$_ENV['username']   = 'dqm';
+$_ENV['url']   = 'admin.test.com';
+$_ENV['username']   = 'test110';
 $_ENV['password']   = '123456';
-$_ENV['clientip']   = '127.0.0.1';
 ?>
 
