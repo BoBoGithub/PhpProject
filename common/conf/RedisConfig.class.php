@@ -10,11 +10,11 @@ class RedisConfig
 
 	public static $RedisServer = array(
 		'cache' => array(
-			array('ip' => '172.16.1.208', 'port' => 6379),	
-			array('ip' => '172.16.1.208', 'port' => 6379),	
+			array('ip' => '127.0.0.1', 'port' => 6379),	
+			array('ip' => '127.0.0.1', 'port' => 6379),	
 		),
 		'submit' => array(
-			array('ip' => '172.16.1.208', 'port' => 6381),	
+			array('ip' => '127.0.0.1', 'port' => 6379),	
 		),
 	);
 
