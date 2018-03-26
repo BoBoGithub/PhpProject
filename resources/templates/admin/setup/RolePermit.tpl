@@ -41,9 +41,11 @@ $(document).ready(function() {
 				<table width="100%" cellspacing="0" id="dnd-example" class="table table-striped table-bordered table-hover  dataTable no-footer">
 					<tbody>
 						{{foreach from=$menuListData item=menuData}}
+							{{if $menuData['checked'] != 'disabled'}}
 							<tr id='node-{{$menuData['id']}}'  {{$menuData['pnode']}}>
 								<td style='padding-left:30px;'><input type='checkbox' name='menuId' value='{{$menuData['id']}}' level='{{$menuData['level']}}' {{$menuData['checked']}} onclick='javascript:checknode(this);'> {{$menuData['name']}}</td>
 							</tr>
+							{{/if}}
 						{{/foreach}}
 					</tbody>
 				</table>
