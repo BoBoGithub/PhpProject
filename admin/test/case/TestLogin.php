@@ -23,7 +23,7 @@ class LoginTest extends AdminTest {
 			array(
 				array(
 					'username'=>'test110',
-					'password'=>'123456',
+					'password'=>'1234568',
 				),
 				CommonConst::SUCCESS
 			),

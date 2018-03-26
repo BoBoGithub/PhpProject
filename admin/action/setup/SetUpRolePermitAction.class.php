@@ -20,13 +20,21 @@ class SetUpRolePermitAction extends WebBaseAction {
 		//调取当前角色的权限
 		$privList = PermitService::getInstance()->getAdminRolePrivByRoleId($roleId);
 
+		//调取登陆角色的权限
+		$adminPrivList = PermitService::getInstance()->getAdminRolePrivByRoleId($this->adminUserInfo['roleid']);
+
 		//调取菜单数据
 		$menuListData = PermitService::getInstance()->getMenuTree();
 
 		//处理菜单选中状态
-		if(!empty($privList)){
+		if(!empty($privList) || !empty($adminPrivList)){
 			foreach($menuListData as $k=>$v){
-				$menuListData[$k]['checked'] = in_array($v['url'], $privList) ? 'checked' : '';
+				if(in_array($v['url'], $adminPrivList) || $this->adminUserInfo['roleid'] == 1){
+					$menuListData[$k]['checked'] = in_array($v['url'], $privList) ? 'checked' : '';
+				}else{
+					$menuListData[$k]['checked'] = 'disabled';
+				}
+				//$menuListData[$k]['checked'] = in_array($v['url'], $privList) ? 'checked' : ($this->adminUserInfo['roleid'] == 1 ? '' : 'disabled');
 			}
 		}
 
