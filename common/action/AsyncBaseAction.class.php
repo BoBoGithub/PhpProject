@@ -110,14 +110,14 @@ class AsyncBaseAction extends BaseAction {
         }
         
         if(isset($_REQUEST['XDEBUG'])){
-            Log::debug("XDEBUG, json_request : $json_request");
+            CLog::debug("XDEBUG, json_request : $json_request");
         }
         
         if(empty($json_request)){
             return array();
         }
         if (NULL == $json_request){
-            Log::trace ( "json_decode get NULL!! " );
+            CLog::trace ( "json_decode get NULL!! " );
             throw new Exception ( Conf_Error::ERROR_PARAM_MALFORMED_JSON );
         }
         return $json_request;
